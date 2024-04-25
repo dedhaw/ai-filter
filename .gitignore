@@ -153,3 +153,5 @@ cython_debug/
 
 # Ignore Streamlit secrets file
 .streamlit/secrets.toml
+.streamlit/secrets.toml
+/.streamlit
