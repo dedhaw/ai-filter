@@ -19,7 +19,7 @@ st.title("AI Filter")
 # Image uploader
 imageUploaded = False
 with st.expander("Image uploader") :
-    images = st.file_uploader("Upload Images", type=("png"), accept_multiple_files=True)
+    images = st.file_uploader("Upload Images", accept_multiple_files=True)
     imageNames = list()
     imageName = ""
     
