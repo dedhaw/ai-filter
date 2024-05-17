@@ -72,11 +72,13 @@ if imageUploaded :
                     }
                 )
                 
+                imgDir = "a person. Include any masks or facial accessories if needed"
+                
                 final = r.run(
                     fofr,
                     input={
                         "image": currImage,
-                        "prompt": "a person",
+                        "prompt": imgDir,
                         "image_to_become": styleImage[0],
                         "negative_prompt": "",
                         "prompt_strength": 2,
