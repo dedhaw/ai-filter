@@ -72,6 +72,8 @@ if imageUploaded :
                     }
                 )
                 
+                st.write(styleImage)
+                
                 imgDir = "a person. Include any masks or facial accessories if needed"
                 
                 final = r.run(
